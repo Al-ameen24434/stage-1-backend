@@ -1,0 +1,76 @@
+# Node modules
+/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+jest-cache/
+.vitest/
+
+# Build output
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.public/
+.cache/
+.cache/
+.next/
+.out/
+public/
+
+# Frameworks & tools
+/.parcel-cache/
+/.cache/
+.serverless/
+.vercel/
+.firebase/
+.esbuild/
+
+# Dependency directories
+bower_components/
+
+# TypeScript
+*.tsbuildinfo
+
+# Lock files (do NOT ignore package-lock.json or yarn.lock if you want reproducible installs)
+# Uncomment if you want to ignore pnpm lockfiles created locally:
+# pnpm-lock.yaml
+
+# Environment files
+.env
+.env.*.local
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.tgz
+*.gz
+*.zip
+.yarn-integrity
+.pnp.*
