@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-// In-memory storage (use a database in production)
+// In-memory storage
 const strings = new Map();
 
 // Helper function to compute SHA-256 hash
